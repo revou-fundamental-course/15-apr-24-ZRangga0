@@ -1,0 +1,99 @@
+link{
+    display: none;
+}
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url('/assets/GBR.png');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+
+button {
+    margin: 15px 20px 0px 15px;
+    padding: 7px 10px;
+    background-color: #007bff;
+    color: #002a3d;
+    border-radius: 3px;
+    cursor: pointer;
+    border: px solid #000000;
+    border-radius: 20px;
+    font-size: 15px;
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+h3{
+    margin: 20px 10px 5px 10px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    text-decoration: underline;
+    color: #000000;
+}
+
+h2{
+    font-size: 45px;
+    font-family: Calibri;
+    margin: 5px 5px 5px 5px;
+    display: inline;
+    white-space: pre wrap;
+    color: #000000;
+}
+
+c{
+    font-size: 40px;
+    color: #0084ff;
+}
+f{
+    font-size: 40px;
+    color: #ff0000;
+}
+
+.TER{
+    min-height: px;
+    background: rgb(135, 174, 245);
+    border-radius: 20px;
+    box-shadow: 0px 0px 8px 3px rgb(42, 42, 43);
+    font-size: 15px;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    padding: 10px;
+    
+}
+
+.container{
+    max-width: 400px;
+    min-height: 420px;
+    background: rgb(54, 93, 146);
+    border-radius: 30px;
+    box-shadow: 0px 0px 8px 3px rgb(86, 86, 95);
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    padding: 20px;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+}
+
+.input{
+    align-items: center;
+    display: grid;
+    gap: 10px;
+    width: 250px; /* Lebar input box */
+    padding: 10px; /* Padding di dalam input box */
+    border: 3px solid #000000; /* Border input box */
+    border-radius: 40px; /* Mengatur sudut border */
+    box-sizing: border-box;
+    margin: 1px 5px 5px 45px;
+}
+
+.result {
+   font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    white-space: pre-wrap;
+    padding: 8px;
+    text-align: right;
+}
